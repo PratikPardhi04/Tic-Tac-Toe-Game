@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>XO Game - Smart Bot</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>✨ Neon XO Game ✨</h1>
+
+  <div class="mode-select">
+    <button class="mode-btn active" id="mode-2p">2 Players</button>
+    <button class="mode-btn" id="mode-bot">Vs Bot</button>
+  </div>
+
+  <div class="scoreboard">
+    <div class="score">Player X <span id="score-x">0</span></div>
+    <div class="score">Player O <span id="score-o">0</span></div>
+    <div class="score">Draws <span id="score-d">0</span></div>
+  </div>
+
+  <div class="board" id="board"></div>
+  <div class="message" id="message">Player X's turn</div>
+  <button class="btn" id="reset">Reset Game</button>
+
+<script src="script.js"></script>
+</body>
+</html>
